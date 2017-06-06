@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+      <link rel="stylesheet" href="index.css">
+      </head>
+    <body>
+      <div class="background-background-div">
+      <div class="background-div">
+        <img src="https://static5.depositphotos.com/1031343/520/v/950/depositphotos_5203030-stock-illustration-blank-shopping-list.jpg">
+        <!--main list-->
+        <h1>Shopping List</h1>
+        <section>
+          <form id="listForm">
+            <div id="inputSection">
+                <p>
+                    <label for="itemName">Add Items to your List</label>
+                    <input type="text" name="itemName">
+                </p>
+                <p>
+                    <div id="button-div"><button type="submit">Add</button></div>
+                </p>
+            </div>
+          </form>
+          <h3>Here's your shopping list:</h3>
+          <div>
+            <ul id="list">
+                <li>Milk <button id="promote">*</button><button id="delete">Delete</button></li>
+                <li>Eggs <button id="promote">*</button><button id="delete">Delete</button></li>
+                <li>Bread <button id="promote">*</button><button id="delete">Delete</button></li>
+            </ul>
+          </div>
+          </div>
+        </section>    
+      </div> 
+
+      <script src="index.js"></script>
+    </body>
+</html>
